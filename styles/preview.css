@@ -1,0 +1,64 @@
+
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    column-gap: 40px;
+    row-gap: 50px;
+}
+
+.thumbnails{
+    width: 100%;
+    object-fit:cover;
+    border-radius: 4px;
+    
+}
+.thumbmail-row{
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    column-gap: 5px;
+
+}
+
+.title{
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.profile-pic{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.studio,
+.stats{
+    font-size: 14px;
+    color: rgb(220, 220, 220);
+}
+
+.studio{
+    margin-bottom: 4px;
+}
+
+.ep{
+    background-color: rgb(185, 231, 255);
+    font-family: Roboto,Arial;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 4px 4px 2px 4px;
+    border-radius: 2px;
+    color: rgb(17, 17, 17);
+    position: absolute;
+    bottom: 10px;
+    right:8px;
+    
+}
