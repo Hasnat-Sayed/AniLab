@@ -1,6 +1,4 @@
-* {
-    box-sizing: border-box;
-  }
+
 .video-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
@@ -38,8 +36,16 @@
     width: 100%;
     object-fit:cover;
     border-radius: 4px;
+    transition:transform 0.2s ease, box-shadow 0.2s ease;;
     
 }
+
+.thumbnails:hover{
+    transform: scale(1.03);
+    box-shadow: 0 4px 20px rgba(137, 118, 255, 0.4);
+}
+
+
 .thumbmail-row{
     margin-bottom: 8px;
     position: relative;
@@ -78,11 +84,10 @@
 
 .ep{
     background-color: rgb(185, 231, 255);
-    font-family: Roboto,Arial;
     text-align: center;
     font-size: 12px;
     font-weight: 500;
-    padding: 4px 4px 2px 4px;
+    padding: 4px;
     border-radius: 2px;
     color: rgb(17, 17, 17);
     position: absolute;

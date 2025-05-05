@@ -2,13 +2,13 @@
     box-sizing: border-box;
 }
 body{
+    font-family: Roboto, Arial;
     background-color: #201f31;
     color: rgb(255, 255, 255);
     margin: 0;
     padding-top: 80px;
     padding-left: 92px;
     padding-right: 24px;
-    margin-bottom: 1000px;
 }
 
 p{
@@ -16,3 +16,17 @@ p{
     margin-top: 0;
     margin-bottom: 0;
 }
+
+.footer{
+    width: 100%;
+    background-color: #1c1b29;
+    color: #c7bfff;
+    text-align: center;
+    font-size: 16px;
+    padding:20px 15px;
+    margin-top: 50px;
+    border-top: 2px solid #35334a;
+
+}
+
+  
